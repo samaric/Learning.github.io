@@ -597,6 +597,7 @@
 .team-one__image {
   position: relative;
   overflow: hidden;
+  height: 500px;
   border-radius: 20px;
 }
 
@@ -833,6 +834,7 @@
 .team-two__image {
   position: relative;
   overflow: hidden;
+  height: 450px;
   border-radius: 200px;
   margin: 0 31.5px;
 }
@@ -3891,7 +3893,7 @@ h6 {
   margin: 0 0 11px;
   position: relative;
   z-index: 2;
-  padding: 0 20px;
+  padding: 0 0px;
 }
 
 .section-title__tagline svg {
@@ -9335,6 +9337,7 @@ object-position: 100% 5%;
   -webkit-mask: url('data:image/svg+xml;utf8,<svg viewBox="0 0 416 276" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="208" cy="-2" rx="279" ry="278" fill="black"/></svg>');
   mask: url('data:image/svg+xml;utf8,<svg viewBox="0 0 416 276" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="208" cy="-2" rx="279" ry="278" fill="black"/></svg>');
   mask-repeat: repeat;
+  object-fit: cover;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-size: cover;
@@ -9460,6 +9463,8 @@ object-position: 100% 5%;
   height: 44px;
   border-radius: 50%;
   position: absolute;
+  object-fit: cover;
+  object-position: 100% 5%;
   left: 0;
   top: 0;
   bottom: 0;
@@ -13378,7 +13383,6 @@ object-position: 100% 5%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-
 }
 
 
